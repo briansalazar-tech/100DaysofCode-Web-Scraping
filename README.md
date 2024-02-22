@@ -1,6 +1,6 @@
 This program was created as part of the 100 Days of code course by the App Brewery.
 
-The goal for day 93 of the course was to create a web scraping program. For the program, I created a script that scrapes housing data from homes.com and saves that data to a csv file. I tried other home listing websites however, upon testing Homes.com was the easiest one to work with and returned data.
+The goal for day 93 of the course was to create a web scraping program. For the program, I created a script that scrapes housing data from homes.com and saves that data to a csv file. I tried other home listing websites however, upon testing Homes.com was the easiest one to work with and returned data. Additionally, the url created from the search parameters saved the search allowing url to return unique entries for any day the script is executed. Here is an example url for a search in San Fransico. https://www.homes.com/houses-for-sale/1-to-5-bedroom/?sk=ufdZSaiDuqN8WT539rXFSeN6IZsPGBP_xfkI_Bhk9pw&bb=l2porikn0Oqnjm25D
 
 Since this program actually provided real world value to me, I added on to it by creating a second script that emails the data that is saved to a csv file and passed both the housing_collection, and housing_email scripts through a ps1 file that I scheduled to run daily on my personal computer. 
 
